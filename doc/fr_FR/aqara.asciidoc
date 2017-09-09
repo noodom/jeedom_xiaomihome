@@ -16,11 +16,11 @@ Pour cela, il faut ajouter la Gateway dans l'application Mi Home et être en Chi
 
 Ensuite cliquer dessus pour la sélectionner, là cliquer sur les "..." et enfin "about"
 
-Là vous avez un numéro de version, cliquez dessus de facon répéter jusqu'à un message (oui en chinois ca aide pas :)) et 2 nouvelles options apparaissent
+Là vous avez un numéro de version, cliquez dessus de facon répétée jusqu'à un message (oui en chinois, ça aide pas :)) et 2 nouvelles options apparaissent.
 
-Choisissez la première option (nouvellement apparue) et activer le bouton switch pour qu'il passe en vert, voilà le mode local est actif et votre gateway est accessible du réseau
+Choisissez la première option (nouvellement apparue) et activer le bouton switch pour qu'il passe en vert, voilà le mode local est actif et votre gateway est accessible du réseau.
 
-Information importante : pour pouvoir envoyer des commandes (prise) vers la gateway, vous devez renseigner son mot de passe sur la page équipement. Ce mot de passe est visible sur la page où l'on active le mode développeur
+Information importante : pour pouvoir envoyer des commandes (prise) vers la gateway, vous devez renseigner son mot de passe sur la page équipement. Ce mot de passe est visible sur la page où l'on active le mode développeur.
 
 === Commandes des équipements compatibles
 
@@ -52,7 +52,7 @@ Les équipements actuellement compatibles fournissent les informations :
 
   - Moteur pour rideau : commande statut (string), position (string) et les commandes actions associées
 
-Remontée des piles : l'API fournie désormais aussi l'état des piles des équipements. Ce qui est retourné c'est le voltage de la pile, avec une fiche technique de l'API indiquant qu'elle sera au max de 3.2V et logiquement à 2.8V la pile n'est plus utilisable. Dans les faits, ce sont des piles 3V, voici donc les informations fournies dans Jeedom :
+Remontée des piles : l'API fournie désormais aussi l'état des piles des équipements. Ce qui est retourné, c'est le voltage de la pile, avec une fiche technique de l'API indiquant qu'elle sera au max de 3.2V et logiquement à 2.8V la pile n'est plus utilisable. Dans les faits, ce sont des piles 3V, voici donc les informations fournies dans Jeedom :
 
   * Voltage (en commande non visible sur le dash par défaut)
 
