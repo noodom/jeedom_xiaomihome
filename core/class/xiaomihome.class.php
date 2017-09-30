@@ -52,7 +52,7 @@ class xiaomihome extends eqLogic {
         event::add('jeedom::alert', array(
             'level' => 'warning',
             'page' => 'xiaomihome',
-            'message' => __('Nouveau module detecté', __FILE__),
+            'message' => __('Nouveau module détecté', __FILE__),
         ));
         if ($_type == 'aquara') {
             if (!isset($_def['model']) || !isset($_def['sid'])) {
@@ -141,7 +141,7 @@ class xiaomihome extends eqLogic {
                 event::add('jeedom::alert', array(
                     'level' => 'warning',
                     'page' => 'xiaomihome',
-                    'message' => __('Module inclu avec succès ' . $_def['capabilities']['model'], __FILE__),
+                    'message' => __('Module inclus avec succès ' . $_def['capabilities']['model'], __FILE__),
                 ));
             }
             $xiaomihome->setConfiguration('model',$_def['capabilities']['model']);
